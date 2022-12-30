@@ -51,11 +51,11 @@ public class test {
         WebElement HalanEntermail =driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div/form/p[1]/input"));
         HalanEntermail.click();
 
-        String halanMail = "hussien.elmokadem@halan.com";
+        String halanMail = "********";
         WebElement HalanMail =driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/form/p[2]/input"));
         HalanMail.sendKeys(halanMail);
 
-        String halanPass = "H@123456";
+        String halanPass = "*******";
         WebElement HalanPass1 =driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/form/p[3]/input"));
         HalanPass1.sendKeys(halanPass);
         WebElement HalanSubmit =driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/form/p[4]/button"));
