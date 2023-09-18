@@ -32,13 +32,13 @@ public class test {
     System.out.println( "download is "+D);
     System.out.println("upload is  " + U);
 
-    driver.navigate().to("https://app.slack.com/client/TDDM95KS7/D02HZ97VD5W");
+    driver.navigate().to("https:");
         try {
             Thread.sleep(9999);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        String halan = "halan-eng";
+        String halan = "ha";
         WebElement Halan =driver.findElement(By.xpath("/html/body/main/div/div/div/div[1]/div[2]/form/div/div/div/input"));
         Halan.sendKeys(halan);
         WebElement HalanEnter =driver.findElement(By.xpath("/html/body/main/div/div/div/div[1]/div[2]/form/button"));
