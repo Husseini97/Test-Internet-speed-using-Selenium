@@ -65,9 +65,9 @@ public class test {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        WebElement clickText=driver.findElement(By.xpath("//div[@aria-label='Message to hussien.elmokadem']//p"));
+        WebElement clickText=driver.findElement(By.xpath("//div[@aria-label='Message ']//p"));
         clickText.click();
-        WebElement SendMesg =driver.findElement(By.xpath("//div[@aria-label='Message to hussien.elmokadem']//p"));
+        WebElement SendMesg =driver.findElement(By.xpath("//div[@aria-label='Message ']//p"));
         SendMesg.sendKeys(" According to Fiber Test | Gigabit internet speed test The download speed is   " + D);
         SendMesg.sendKeys("  &    The upload speed is  " + U);
         WebElement HalanSend =driver.findElement(By.xpath("//i[@type='paperplane-filled']"));
